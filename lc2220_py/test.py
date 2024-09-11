@@ -11,6 +11,10 @@ class Test(unittest.TestCase):
         result = Solution1().minBitFlips(arg, goal)
         print(result)
 
+    def t2(self, arg, goal, expected=None):
+        result = Solution1().minBitFlips(arg, goal)
+        print(result)
+
     def test1(self):
         start = 10
         goal = 7
@@ -30,6 +34,18 @@ class Test(unittest.TestCase):
         start = 3
         goal = 4
         self.t1(start, goal)
+
+
+    def test12(self):
+        start = 10
+        goal = 7
+        self.t2(start, goal)
+
+    def test22(self):
+        start = 3
+        goal = 4
+        self.t2(start, goal)
+
 
 if __name__ == '__main__':
     unittest.main()

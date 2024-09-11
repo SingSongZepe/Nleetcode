@@ -20,6 +20,11 @@ class Solution1:
             bit_xor &= (bit_xor - 1)
         return count
 
+class Solution2:
+    def minBitFlips(self, start: int, goal: int) -> int:
+        bit_xor = start ^ goal
+        return bit_xor.bit_count()
+
 def main():
     print('Hello World')
 
