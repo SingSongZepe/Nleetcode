@@ -1,0 +1,3 @@
+"D:\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\lc64_cpp.dir/objects.a
+"D:\CLion 2022.2\bin\mingw\bin\ar.exe" qc CMakeFiles\lc64_cpp.dir/objects.a @CMakeFiles\lc64_cpp.dir\objects1.rsp
+"D:\CLion 2022.2\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\lc64_cpp.dir/objects.a -Wl,--no-whole-archive -o lc64_cpp.exe -Wl,--out-implib,liblc64_cpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lc64_cpp.dir\linklibs.rsp
