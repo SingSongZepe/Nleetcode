@@ -56,7 +56,7 @@ class CustomStack:
         if k > 0:
             self.increment_list[k - 1] += val
 
-            
+
 def main():
     print('Hello World')
 
