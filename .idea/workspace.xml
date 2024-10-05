@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="628e62fd-f3e4-408f-bead-f98405b851f8" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/lc892_py/res/img/i1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc892_py/res/img/i2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc892_py/res/img/i3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gitup.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +36,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "F:/MySelf/Code/leetcode/lc275_py",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "org.rust.first.attach.projects": "true",
@@ -58,6 +59,8 @@
       <workItem from="1714843585490" duration="10000" />
       <workItem from="1724012173042" duration="46000" />
       <workItem from="1726596958831" duration="13000" />
+      <workItem from="1728073377494" duration="2000" />
+      <workItem from="1728081299690" duration="51000" />
     </task>
     <servers />
   </component>
