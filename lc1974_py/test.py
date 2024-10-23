@@ -4,20 +4,19 @@ from main import *
 
 class Test(unittest.TestCase):
     def t(self, arg, expected=None):
-        result = Solution().average(arg)
+        result = Solution().minTimeToType(arg)
         print(result)
         self.assertEqual(result, expected)
         
     def test1(self):
-        salary = [4000,3000,1000,2000]
-        expected = 2500.00000
-        self.t(salary, expected)
+        word = 'abc'
+        expected = 5
+        self.t(word, expected)
 
     def test2(self):
-        salary = [1000,2000,3000]
-        expected = 2000.00000
-        self.t(salary, expected)
-
+        word = 'bza'
+        expected = 7
+        self.t(word, expected)
 
 if __name__ == '__main__':
     unittest.main()
