@@ -17,6 +17,7 @@ class Solution:
 
         return False
 
+# a tricky solution
 class Solution1:
     def repeatedSubstringPattern(self, s: str) -> bool:
         return s in (s + s)[1:-1]
