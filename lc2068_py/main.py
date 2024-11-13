@@ -14,7 +14,7 @@ class Solution:
 
         return True
 
-class Solution:
+class Solution1:
     def checkAlmostEquivalent(self, word1: str, word2: str) -> bool:
 
         d = Counter(word1)
