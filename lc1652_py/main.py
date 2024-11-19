@@ -31,13 +31,6 @@ class Solution1:
 
 
 
-
-
-
-
-        pass
-
-
 def main():
     print('Hello World')
 
