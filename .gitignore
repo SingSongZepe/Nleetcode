@@ -1,9 +1,13 @@
 
-node_modules
-__pycache__
-_trial_temp
+**/node_modules
+**/__pycache__
+**/_trial_temp
 
-.venv
-venv
+**/.venv
+**/venv
 
-.idea
+**/.idea
+
+.gitignore
+
+**/_trial_temp*/

@@ -117,7 +117,40 @@ class Solution:
 
             exit_[node] = curr_time - 1
 
+        # def dfs_1(node: int, parent: int, cnt: int) -> int:
+        #
+        #     # if no child
+        #     if len(adj[node]) == 1 and adj[node][0] == parent:
+        #         entry[node] = cnt
+        #         exit_[node] = cnt
+        #         sub_xor[node] = nums[node]
+        #         return 1
+        #
+        #     entry[node] = cnt
+        #     xor = nums[node]
+        #     cnt_subtree = 1
+        #     for child in adj[node]:
+        #         if child == parent:
+        #             continue
+        #         cnt_subtree += dfs_1(child, node, cnt + cnt_subtree)
+        #         xor ^= sub_xor[child]
+        #
+        #     sub_xor[node] = xor
+        #
+        #     exit_[node] = cnt + cnt_subtree
+        #     return cnt_subtree
+
         dfs(0, -1)
+        print('method 1')
+        print(entry)
+        print(exit_)
+        print(sub_xor)
+
+        # dfs_1(0, -1, 0)
+        # print('method 2')
+        # print(entry)
+        # print(exit_)
+        # print(sub_xor)
 
         # parent = [0] * n
         # stack = [(0, -1, False)]
