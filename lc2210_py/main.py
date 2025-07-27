@@ -46,6 +46,24 @@ class Solution1:
                     state = 0
         return ans
 
+# new daily
+class Solution:
+    def countHillValley(self, nums: List[int]) -> int:
+
+        i, left, n = 1, nums[0], len(nums)
+        res = 0
+        while i < n - 1:
+            if (left < nums[i] and nums[i] > nums[i+1]) or (left > nums[i] and nums[i] < nums[i+1]):
+                left = nums[i]
+                res += 1
+            i += 1
+            while i < n - 1 and nums[i] == nums[i+1]:
+                i += 1
+
+        return res
+
+
+
 def main():
     print('Hello World')
 
