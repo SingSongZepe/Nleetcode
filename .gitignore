@@ -8,6 +8,6 @@
 
 **/.idea
 
-.gitignore
-
 **/_trial_temp*/
+
+**/target
